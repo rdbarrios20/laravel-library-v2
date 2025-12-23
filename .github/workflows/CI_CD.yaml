@@ -65,4 +65,3 @@ jobs:
           TARGET: ${{ secrets.PROD_SERVER_PATH }}
       - name: Run migrations
         run: php artisan migrate --force
-      - name:
